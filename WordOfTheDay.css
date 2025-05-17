@@ -1,0 +1,74 @@
+/* General Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container Styling */
+  #word-container {
+    background: #1e293b;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 2rem;
+    color: #e2e8f0;
+    margin-bottom: 20px;
+  }
+  
+  /* Danish Word Styling */
+  #danish-word {
+    font-size: 1.5rem;
+    color: #38bdf8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* English Translation Styling */
+  p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #94a3b8;
+  }
+  
+  /* Definitions List Styling */
+  ul {
+    list-style-type: none;
+    margin-top: 15px;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    background: #334155;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover Effect for Danish Word */
+  #danish-word:hover {
+    color: #0ea5e9;
+    text-decoration: underline;
+  }
