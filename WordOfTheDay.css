@@ -11,8 +11,6 @@ body, h1, p, ul, li, a {
     background: linear-gradient(135deg, #1e293b, #0f172a);
     color: #e2e8f0;
     display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     overflow: scroll;
     padding: 20px;
@@ -21,13 +19,9 @@ body, h1, p, ul, li, a {
   
   /* Container Styling */
   #word-container {
-    background: #1e293b;
-    padding: 20px 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-    text-align: center;
     max-width: 400px;
-    width: 90%;
+    width: 100%;
   }
   
   /* Heading Styling */
@@ -64,7 +58,6 @@ body, h1, p, ul, li, a {
     font-size: 0.9rem;
     color: #cbd5e1;
     background: #334155;
-    padding: 8px 12px;
     border-radius: 5px;
     margin-bottom: 12px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
